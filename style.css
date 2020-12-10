@@ -203,10 +203,19 @@ iframe{
     max-width: 30vw;
 }
 
-/* projects */
-#projects-section {
-
+.container-wrapper{
+    position: relative;
 }
+.container-wrapper span{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    top:180px;
+    left:50px;
+    padding:20px 30px;
+    line-height: 1.5;
+}
+
+/* projects */
 .projects img{
  max-height: 250px;
  border: solid 0.5px black;
